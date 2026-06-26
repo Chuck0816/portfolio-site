@@ -34,7 +34,7 @@ export const experiences = [
     title: "SPIN Intern, Simulation Software Engineering Project",
     organization: "National Center for Supercomputing Applications (NCSA)",
     dates: "April 2026 - Present",
-    stack: ["Python", "Simulation", "Data Processing", "Visualization"],
+    stack: ["Python", "FastAPI", "Pydantic",  "YAML/JSON", "SQL", "React","Pytest",  "Genetics Simulation"],
     bullets: [
       "Designed a modular genetics simulation engine with configurable inheritance rules, mutation settings, genotype-to-phenotype mappings, and multi-generation breeding logic.",
       "Built a rule-driven architecture that separates simulation configuration from core engine logic, improving extensibility, maintainability, and testability.",
