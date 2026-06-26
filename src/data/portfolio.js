@@ -91,15 +91,6 @@ export const projects = [
     demo: "https://your-demo-link.com",
   },
   {
-    name: "Property Search Website",
-    description:
-      "A production property-search application with backend APIs, MySQL-backed filtering, geolocation logic, and interactive Google Maps views.",
-    stack: ["PHP", "JavaScript", "MySQL", "Google Maps API", "Linux"],
-    features: ["Advanced property filtering", "Interactive map markers", "Production deployment"],
-    github: "https://github.com/Chuck0816",
-    demo: "https://chuck.calisearch.org/",
-  },
-  {
     name: "Handwriting Recognition Platform",
     description:
       "A digit recognition platform with a Pygame drawing interface and a CNN trained on MNIST.",
