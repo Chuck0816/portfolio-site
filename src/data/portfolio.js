@@ -80,11 +80,12 @@ export const projects = [
     name: "Flight Route Intelligence Platform",
     description:
       "A database-backed full-stack flight analytics platform for searching flight routes, comparing airline reliability, and analyzing delay and cancellation trends using real-world aviation datasets.",
-    stack: ["React", "SQL", "Python", "Google Maps API"],
+    stack: ["React", "MySQL","SQL", "Python", "Google Maps API", "Query Optimization", "Database Design"],
     features: [
-      "Modeled normalized database entities for flights, airports, airlines, routes, and performance records",
-      "Built SQL-driven backend features with CRUD operations, joins, aggregations, stored procedures, and analytical queries",
-      "Integrated Google Maps API to visualize airport locations and flight route connections",
+      "Designed a full-stack flight analytics platform for searching routes, comparing airline reliability, and analyzing delay/cancellation trends using real-world aviation datasets.",
+      "Modeled 5+ normalized database entities including flights, airports, airlines, routes, and performance records with one-to-many and many-to-many relationships.",
+      "Integrated Google Maps API to visualize airport locations and flight routes, connecting SQL-backed route data with an interactive geographic interface.",
+      "Built CRUD workflows and SQL-driven backend features using joins, aggregations, stored procedures, and analytical queries to support route search and reliability insights.",
     ],
     github: "https://github.com/Chuck0816",
     demo: "https://your-demo-link.com",
