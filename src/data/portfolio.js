@@ -36,9 +36,10 @@ export const experiences = [
     dates: "April 2026 - Present",
     stack: ["Python", "Simulation", "Data Processing", "Visualization"],
     bullets: [
-      "Designed a modular inheritance simulator to model genotype-to-phenotype mapping, mutation effects, and multi-generation trait propagation.",
-      "Developed configurable components for breeding logic, mutation rate control, Markov-based state transitions, and phenotype outcome generation.",
-      "Built workflows that aggregate simulated offspring outcomes into population-level distributions, trend summaries, and visualizable datasets.",
+      "Designed a modular genetics simulation engine with configurable inheritance rules, mutation settings, genotype-to-phenotype mappings, and multi-generation breeding logic.",
+      "Built a rule-driven architecture that separates simulation configuration from core engine logic, improving extensibility, maintainability, and testability.",
+      "Developed data-processing pipelines to aggregate simulated offspring outcomes into population-level phenotype distributions, generation trends, and visualization-ready datasets.",
+      "Implemented Python-based visualization workflows for analyzing inheritance patterns, mutation effects, and trait frequency changes across generations."
     ],
   },
   {
@@ -76,14 +77,14 @@ export const experiences = [
 
 export const projects = [
   {
-    name: "AI Career Planning Platform for UIUC Students",
+    name: "Flight Route Intelligence Platform",
     description:
-      "A LangGraph-based platform that parses resumes, job descriptions, and UIUC course history to generate personalized course, project, and skill-gap recommendations.",
-    stack: ["LangGraph", "SQL", "Python", "Resume Parsing"],
+      "A database-backed full-stack flight analytics platform for searching flight routes, comparing airline reliability, and analyzing delay and cancellation trends using real-world aviation datasets.",
+    stack: ["React", "SQL", "Python", "Google Maps API"],
     features: [
-      "Multi-step AI workflow",
-      "SQL-backed recommendation layer",
-      "Reduced manual planning from 25 minutes to under 5 minutes per profile",
+      "Modeled normalized database entities for flights, airports, airlines, routes, and performance records",
+      "Built SQL-driven backend features with CRUD operations, joins, aggregations, stored procedures, and analytical queries",
+      "Integrated Google Maps API to visualize airport locations and flight route connections",
     ],
     github: "https://github.com/Chuck0816",
     demo: "https://your-demo-link.com",
@@ -96,15 +97,6 @@ export const projects = [
     features: ["Advanced property filtering", "Interactive map markers", "Production deployment"],
     github: "https://github.com/Chuck0816",
     demo: "https://chuck.calisearch.org/",
-  },
-  {
-    name: "Database-backed Web App Project",
-    description:
-      "A full-stack web application with relational data modeling, API routes, and user-focused workflows.",
-    stack: ["React", "FastAPI", "SQLAlchemy", "PostgreSQL"],
-    features: ["CRUD flows", "Relational schema", "Backend validation"],
-    github: "https://github.com/Chuck0816",
-    demo: "https://your-demo-link.com",
   },
   {
     name: "Handwriting Recognition Platform",
