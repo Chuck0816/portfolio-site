@@ -54,17 +54,6 @@ export const experiences = [
     ],
   },
   {
-    title: "Data Director, NLP Research Project",
-    organization: "Youphoria",
-    dates: "March 2026 - Present",
-    stack: ["Python", "CNN Text Classification", "Content Moderation", "NLP"],
-    bullets: [
-      "Researched CNN-based text classification for moderating user-generated posts on a wellness platform with fitness tracking and community forum features.",
-      "Studied how CNN filters identify local phrase patterns related to profanity, harassment, hate speech, and sexually explicit content.",
-      "Proposed a lightweight moderation pipeline combining bad-word screening with CNN-based classification to detect harmful posts while minimizing false positives.",
-    ],
-  },
-  {
     title: "Course Assistant",
     organization: "Siebel School of Computing and Data Science, UIUC",
     dates: "February 2025 - May 2025",
