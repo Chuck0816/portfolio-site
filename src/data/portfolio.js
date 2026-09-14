@@ -38,7 +38,7 @@ export const experiences = [
     bullets: [
       "Built a configuration-driven simulation engine that loads YAML file into typed domain models, validates them before execution, and runs multi-generation workflows that track surviving populations and mutation, lethal, and transition events without changing core engine code.",
       "Built and deployed a FastAPI backend on AWS EC2 that stores rule sets, simulation runs, and generation-level metrics in PostgreSQL; implemented APIs for configuration validation, simulation execution, and result retrieval, with deterministic seeding and 70+ automated tests for reproducible runs.", 
-      "Build a LangGraph multi-agent system that enables users to analyze simulation results through naturallanguage queries, coordinating retrieval, data-analysis, and simulation agents to inspect metrics, compare generations, and using RAG to retrieve relevant simulation rules and project documentation for interpretation."
+      "Build a LangGraph multi-agent system that enables users to analyze simulation results through naturallanguage queries, coordinating retrieval, data-analysis, and simulation agents to inspect metrics, compare generations, and using RAG to retrieve relevant simulation rules and project documentation for interpretation.",
     ],
   },
   {
@@ -74,7 +74,7 @@ export const projects = [
       "Designed a normalized 13-table MySQL database integrating BTS, DOT, and OpenFlights datasets, and wrote SQL queries using joins, CTEs, window functions, and conditional aggregation for route and airline analytics.",
       "Implemented 10 Next.js route handlers and reusable TypeScript query modules for airport lookup, route discovery, user lifecycle operations, saved routes, and route-metric retrieval.",
       "Added Auth.js JWT authentication and a MySQL stored-procedure caching layer that computes and stores route, airline, delay, and fare metrics on demand, with transaction rollback and cache hit/miss handling.",
-      "Optimized MySQL with EXPLAIN ANALYZE and composite covering indexes, reducing a carrier-reliability query from 1,741.7s to 1.079s - a 1,614x speedup.
+      "Optimized MySQL with EXPLAIN ANALYZE and composite covering indexes, reducing a carrier-reliability query from 1,741.7s to 1.079s - a 1,614x speedup.",
     ],
     github: "https://github.com/Chuck0816",
     demo: "https://your-demo-link.com",
