@@ -40,6 +40,7 @@ export const experiences = [
       "Built and deployed a FastAPI backend on AWS EC2 that stores rule sets, simulation runs, and generation-level metrics in PostgreSQL; implemented APIs for configuration validation, simulation execution, and result retrieval, with deterministic seeding and 70+ automated tests for reproducible runs.", 
       "Build a LangGraph multi-agent system that enables users to analyze simulation results through naturallanguage queries, coordinating retrieval, data-analysis, and simulation agents to inspect metrics, compare generations, and using RAG to retrieve relevant simulation rules and project documentation for interpretation.",
     ],
+    demo: "http://18.217.56.245/wizard/basics",
   },
   {
     title: "Software Engineer Intern, Property Search Website",
@@ -86,7 +87,6 @@ export const projects = [
     stack: ["Python", "Pygame", "TensorFlow", "CNN"],
     features: ["Real-time digit drawing", "Input normalization", "98.99% test accuracy"],
     github: "https://github.com/Chuck0816",
-    demo: "https://your-demo-link.com",
   },
 ];
 
