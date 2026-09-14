@@ -34,12 +34,11 @@ export const experiences = [
     title: "SPIN Intern, Simulation Software Engineering Project",
     organization: "National Center for Supercomputing Applications (NCSA)",
     dates: "April 2026 - Present",
-    stack: ["Python", "FastAPI", "Pydantic",  "YAML/JSON", "SQL", "React","Pytest",  "Genetics Simulation"],
+    stack: ["Python", "FastAPI", "Pydantic",  "YAML/JSON", "SQL", "React","Pytest",  "Genetics Simulation", "LangGraph", "RAG"],
     bullets: [
-      "Designed a modular genetics simulation engine with configurable inheritance rules, mutation settings, genotype-to-phenotype mappings, and multi-generation breeding logic.",
-      "Built a rule-driven architecture that separates simulation configuration from core engine logic, improving extensibility, maintainability, and testability.",
-      "Developed data-processing pipelines to aggregate simulated offspring outcomes into population-level phenotype distributions, generation trends, and visualization-ready datasets.",
-      "Implemented Python-based visualization workflows for analyzing inheritance patterns, mutation effects, and trait frequency changes across generations."
+      "Built a configuration-driven simulation engine that loads YAML file into typed domain models, validates them before execution, and runs multi-generation workflows that track surviving populations and mutation, lethal, and transition events without changing core engine code.",
+      "Built and deployed a FastAPI backend on AWS EC2 that stores rule sets, simulation runs, and generation-level metrics in PostgreSQL; implemented APIs for configuration validation, simulation execution, and result retrieval, with deterministic seeding and 70+ automated tests for reproducible runs.", 
+      "Build a LangGraph multi-agent system that enables users to analyze simulation results through naturallanguage queries, coordinating retrieval, data-analysis, and simulation agents to inspect metrics, compare generations, and using RAG to retrieve relevant simulation rules and project documentation for interpretation."
     ],
   },
   {
@@ -54,7 +53,7 @@ export const experiences = [
     ],
   },
   {
-    title: "Course Assistant",
+    title: "UIUC STAT400&CS124 Course Assistant",
     organization: "Siebel School of Computing and Data Science, UIUC",
     dates: "February 2025 - May 2025",
     stack: ["Teaching", "Debugging", "Programming Fundamentals"],
@@ -71,10 +70,11 @@ export const projects = [
       "A database-backed full-stack flight analytics platform for searching flight routes, comparing airline reliability, and analyzing delay and cancellation trends using real-world aviation datasets.",
     stack: ["React", "MySQL","SQL", "Python", "Google Maps API", "Query Optimization", "Database Design"],
     features: [
-      "Designed a full-stack flight analytics platform for searching routes, comparing airline reliability, and analyzing delay/cancellation trends using real-world aviation datasets.",
-      "Modeled 5+ normalized database entities including flights, airports, airlines, routes, and performance records with one-to-many and many-to-many relationships.",
-      "Integrated Google Maps API to visualize airport locations and flight routes, connecting SQL-backed route data with an interactive geographic interface.",
-      "Built CRUD workflows and SQL-driven backend features using joins, aggregations, stored procedures, and analytical queries to support route search and reliability insights.",
+      "Built and Deployed a Dockerized React 19 application on GCP Cloud Run, supporting authenticated flight search, map-based route visualization, analytics dashboards, and saved routes across 23.3M flight records",
+      "Designed a normalized 13-table MySQL database integrating BTS, DOT, and OpenFlights datasets, and wrote SQL queries using joins, CTEs, window functions, and conditional aggregation for route and airline analytics.",
+      "Implemented 10 Next.js route handlers and reusable TypeScript query modules for airport lookup, route discovery, user lifecycle operations, saved routes, and route-metric retrieval.",
+      "Added Auth.js JWT authentication and a MySQL stored-procedure caching layer that computes and stores route, airline, delay, and fare metrics on demand, with transaction rollback and cache hit/miss handling.",
+      "Optimized MySQL with EXPLAIN ANALYZE and composite covering indexes, reducing a carrier-reliability query from 1,741.7s to 1.079s - a 1,614x speedup.
     ],
     github: "https://github.com/Chuck0816",
     demo: "https://your-demo-link.com",
