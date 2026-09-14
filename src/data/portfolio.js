@@ -77,8 +77,6 @@ export const projects = [
       "Added Auth.js JWT authentication and a MySQL stored-procedure caching layer that computes and stores route, airline, delay, and fare metrics on demand, with transaction rollback and cache hit/miss handling.",
       "Optimized MySQL with EXPLAIN ANALYZE and composite covering indexes, reducing a carrier-reliability query from 1,741.7s to 1.079s - a 1,614x speedup.",
     ],
-    github: "https://github.com/Chuck0816",
-    demo: "https://your-demo-link.com",
   },
   {
     name: "Handwriting Recognition Platform",
@@ -86,7 +84,6 @@ export const projects = [
       "A digit recognition platform with a Pygame drawing interface and a CNN trained on MNIST.",
     stack: ["Python", "Pygame", "TensorFlow", "CNN"],
     features: ["Real-time digit drawing", "Input normalization", "98.99% test accuracy"],
-    github: "https://github.com/Chuck0816",
   },
 ];
 
